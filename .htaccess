@@ -1,0 +1,23 @@
+ErrorDocument 404 /my404.php
+
+Options +FollowSymlinks
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^beebrite.com$
+RewriteRule ^(.*)$ "http\:\/\/www\.beebrite\.com\/$1" [R=301]
+RewriteRule ^terms-of-service$ legalredirect.php?a=1 [QSA]
+RewriteRule ^terms-of-service/$ legalredirect.php?a=1 [QSA]
+RewriteRule ^privacy-policy$ legalredirect.php?a=2 [QSA]
+RewriteRule ^privacy-policy/$ legalredirect.php?a=2 [QSA]
+RewriteRule ^([a-zA-Z0-9-_=]+)$ profile.php?user=$1 [L]
+
+RewriteCond %{HTTP_HOST} ^bbrt.co$
+RewriteCond %{REQUEST_URI} !links/
+RewriteRule ^(.*)$ links/$1 [L]
+#RewriteRule ^([a-zA-Z0-9-_=]+)$ hash.php?usrId=$1[L]
+
+</IfModule>
+
+Order allow,deny
+Allow from all

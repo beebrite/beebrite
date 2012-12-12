@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+body,html { margin:0px; padding:0px; }
+
+body,html { width:100%; height:100%; }
+body { color: #666666; background-color:#EBEBEB; font-family: "myriad-pro",sans-serif; font-size:38px; font-style:normal; font-weight:300;  }
+.block { height: 100%;
+		 width: 100%;
+		 background-image: url(../img/block_grayshadow.png),
+						   url(../img/block_items.png);
+		 background-position: center center,
+		 					  center center;
+		 background-size: cover,
+		 				  auto;
+		 background-repeat: no-repeat,
+		 					no-repeat;
+		 text-shadow: 0px 1px 0px white; }
+.block .blockquote { font-size: 40px; width: 100%; text-align: center; line-height: 26px; top: 50%; position: absolute; margin: -29px 0px 0px 0px; }
+.block .blockquote span { font-size: 26px; }

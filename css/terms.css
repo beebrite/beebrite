@@ -1,0 +1,9 @@
+﻿@charset "utf-8";
+
+h1,h3 { font-family: "myriad-pro",sans-serif; font-style:normal; font-weight:300; }
+h1 { font-size:35px; margin-bottom:50px; }
+h3 { font-size:24px; }
+.mainbox { background-color:#FFFFFF; width:898px; padding:10px 30px 30px 30px; border:1px #E1E1E1 solid; margin:0px auto 0px auto; text-align:justify; line-height:18px; }
+.mainbox ul li {margin-left:20px;}
+.copyright { font-size:10px; padding:0px 0px 40px 0px; text-align:center; margin:0px auto 0px auto; }
+p { margin-bottom:20px; }

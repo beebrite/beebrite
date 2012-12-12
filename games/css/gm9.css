@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.startscreen {
+	background-image:
+		url(../img/gm9_bkg1.png),
+		url(../img/gm9_bkg2.png),
+		url(../img/gm9_bkg3.jpg); 
+	
+	background-repeat:
+		no-repeat,
+		no-repeat,
+		no-repeat;
+		 
+	background-position:
+		center 35%,
+		center bottom,
+		left top;
+		 
+	background-size:
+		auto,
+		auto,
+		auto;
+}

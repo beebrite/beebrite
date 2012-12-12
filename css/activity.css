@@ -1,0 +1,10 @@
+﻿/* Activity Pannel*/
+
+.ul_friend_act { list-style-type:none; margin:0;padding:0; color: #505050; font-family:Tahoma; font-weight:normal; font-size: 12px; }
+.ul_friend_act li { border-bottom:1px #E9E9E9 solid; width:256px; margin:0px auto 0px auto; padding:10px 0px 8px 0px; height:50px; }
+.ul_friend_act li img { border:0; vertical-align:baseline; float:left; margin-right:5px; width:48px; height:48px; }
+.ul_friend_act li span { color: #A0A0A0; font-family:Tahoma; font-weight:normal; font-size: 10px; }
+
+.activitysel {   height:28px; line-height:28px; float:left; border-top:1px #E1E1E1 solid; border-bottom:1px #FFFFFF solid; font-family:Tahoma; font-size:12px; font-style:normal; font-weight:normal; color:#505050; }
+.activityunsel { height:28px; line-height:28px; cursor:pointer; float:left; border-top:1px #E1E1E1 solid; border-bottom:1px #E1E1E1 solid; background-color:#F0F0F0; box-shadow:inset 0px 0px 1px 1px rgba(255,255,255,1); font-family:Tahoma; font-size:12px; font-style:normal; font-weight:normal; color:#505050; }
+.activityunsel:hover { background-color:#E1E1E1; }
